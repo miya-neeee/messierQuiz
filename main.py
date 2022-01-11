@@ -40,7 +40,7 @@ def callback():
     #MessageEvent
     @handler.add(MessageEvent, message=TextMessage)
     def handle_message(event):
-        if event.reply_token == "00000000000000000000000000000000";
+        if event.reply_token == "00000000000000000000000000000000":
             return
 
         line_bot_api.reply_message(
