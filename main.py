@@ -14,7 +14,7 @@ from linebot.models import (
 import os
 
 ##WebApplicationFlamework:flask
-app = Flask(_name_)
+app = Flask(__name__)
 
 ##環境変数からLINE ACCESS TOKENを設定
 LINE_CHANNEL_ACCEASS_TOKEN = os.environ["LINE_CHANNEL_ACCEASS_TOKEN"]
